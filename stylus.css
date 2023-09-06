@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.hello{
+   
+    height: 100px;
+    background-color: rgb(237, 115, 115);
+    width: 100%;
+}
+
+.navbar{
+    height: 100px;
+    width: 100%;
+
+    
+}
+
+.navbar img{
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    
+}
+
+.navbar li{
+    display: flex;
+    color: rgb(0, 0, 0);
+    float: right;
+    padding: 2%;
+    align-items: center;
+    margin-top: 10px;
+    border: 2px;
+    background-color: rgb(240, 169, 169); 
+    margin-right: 30px;
+    height: 5px;
+}
+
+.navbar li:hover{
+    cursor: pointer;
+}
+
+
+.middle img{
+    height: 500px;
+    width: 600px;
+    margin-left: 80px;
+    margin-top: 130px;
+    
+}
+.midtext{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-right: 100px;
+    background:linear-gradient(180deg,orange,rgb(255, 255, 255),green);
+    color: rgb(0, 0, 0);
+}
+
+.buttons{
+    height: 200px;
+    width: 70px;
+    background-color: white;
+    position: fixed;
+    z-index: 0;
+    margin-top: -400px;
+}
+
+#share{
+    height: 50px;
+    width: 70px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(117, 189, 241);  
+}
+
+#feed{
+    height: 50px;
+    width: 70px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+    background-color: rgb(129, 222, 42);
+}
+
+#fab{
+    height: 50px;
+    width: 70px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+    background-color: rgb(97, 97, 234);
+}
+
+#im1{
+    margin-left: 300px;
+    z-index: 2;
+    margin-top: 200px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#lower{
+    position: absolute;
+    color: white;
+    height: 500px;
+    width: 900px;
+    margin-left: 350px;
+    margin-top: -560px;
+    z-index: 1;
+    font-size: 22px;
+}
+
+#im1:hover{
+    z-index: 0;
+}
+
+#lower:hover{
+    z-index: 5;
+}
+
+.final{
+    margin-left: 1500px;
+    position: fixed;
+}
+
+#chat img{
+    float: right;
+    height: 50px;
+    width: 50px;
+}
+
+#chat{
+    float: right;
+    height: 50px;
+    width: 50px;
+    background: none;
+    border: none;
+    margin-right: 20px;
+    margin-top: -900px; 
+}
+
+#foot{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 86, 86);
+}
+
+#foot li{
+    display: flex;
+    font-size: 20px;
+    padding: 2%;
+    margin-left: 20px;
+    border: 2px;
+    background-color: pink;
+}

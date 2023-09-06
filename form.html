@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validation Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form action="">
+  <fieldset>
+    <legend>Validation Form</legend>
+    <div class="v1">
+    <fieldset class="f1">
+      <legend class="in1 nest" for="id1">Name:</legend>
+    <input id="id1" onchange="n1()"  autofocus="on" autofocus placeholder="First Name" type="text">
+    <p class="x" id="p0"></p>
+  </fieldset>
+    
+      <fieldset class="f2">
+      <legend class="in2"></legend>
+    <input id="id2" onchange="ln()"  autofocus placeholder="Surname" type="text"><span class="x1">*</span><br>
+    <p class="x" id="p1"></p>
+  </fieldset>
+    </div>
+
+   <div class="v3">
+    <fieldset>
+    <legend class="in3"for="id3">Email:</legend>
+    <input id="id3" onchange="em()"  autofocus placeholder="Enter email" type="email"><span class="x">*</span><br>
+    <p class="x" id="p2"></p>
+  </fieldset>
+   </div>
+
+    <div class="v4">
+      <fieldset>
+      <legend class="in4"for="id4">Username:</legend>
+    <input id="id4" onchange="un()" autofocus placeholder="Enter username" type="text"><span class="x">*</span><br>
+    <p class="x" id="p3"></p>
+  </fieldset>
+    </div>
+
+    <div class="v5">
+      <fieldset>
+      <legend class="in5"for="id5">Password:</legend>
+    <input id="id5" onchange="ps()"  oncut="return false" oncopy="return false" onpaste="return false" autofocus placeholder="Enter password" type="password"><span class="x">*</span><br>
+    <p class="x" id="p4"></p>
+  </fieldset>
+    </div>
+
+   <div class="v6">
+    <fieldset>
+    <legend class="in6"for="id6">Confirm Password:</legend>
+    <input id="id6" onchange="cps()"  oncut="return false" oncopy="return false" onpaste="return false" autofocus placeholder="Enter confirm password" type="password"><span class="x">*</span><br>
+    <p class="x" id="p5"></p>
+  </fieldset>
+   </div>
+
+   <div class="v7">
+    <fieldset>
+    <legend class="in7"for="id7">Contact No.:</legend>
+    <input id="id7" onchange="ph()"  autofocus placeholder="Enter contact no." type="number"><span class="x">*</span><br>
+    <p class="x" id="p6"></p>
+  </fieldset>
+   </div>
+
+    <div class="v8">
+      <fieldset>
+      <legend class="in8">Address:</legend>
+    <input id="id8" onchange="ad()"  autofocus placeholder="Enter address" type="text"><span class="x">*</span><br>
+    <p class="x" id="p7"></p>
+  </fieldset>
+    </div>
+
+    <button id="but" onclick=" return sub()">Submit</button>
+  </fieldset>
+  
+  </form>
+  <script src="validation.js"></script>
+</body>
+</html>
